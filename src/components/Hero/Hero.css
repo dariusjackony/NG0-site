@@ -1,0 +1,36 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.hero-content {
+    margin-top: 80px;
+}
+.hero-img {
+    width: 80%;
+    margin-top: 20px;
+}
+.hero-title {
+    color: #1a1f36;
+    font-size: 2.2rem;
+}
+.hero-subtitle {
+    color: #444444;
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 10px auto; 
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        margin-top: 60px;
+    }
+    .hero-subtitle {
+        max-width: 600px;
+    }
+    .hero-title {
+        font-size: 2rem;
+    }
+}
