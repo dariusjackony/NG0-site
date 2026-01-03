@@ -1,23 +1,5 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  background-color: var(--bg-white);
-  font-family: "Special Gothic", sans-serif;
-}
-:root {
-  /* Backgrounds */
-  --bg-main: #F7F9FC;
-  --bg-white: #FFFFFF;
-  --bg-muted: #EEF2F7;
-  /* text color */
-  --head-color:  #1a1f36;
-  --sub-head:  #444444;
-  /* buttons */
-  --bg-button: #0D6EFD;
-}
-html {
-  scroll-behavior: smooth;
-}
+@import "tailwindcss";
+
+body {
+     font-family: "Open Sans", sans-serif; 
+} 

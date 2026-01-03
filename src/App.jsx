@@ -1,10 +1,10 @@
-import Navbar from "./components/Navbar/Navbar";
-import HomePage from "./pages/HomePage/HomePage";
-export default function App(){
-  return(
-    <>
-     <Navbar />
-     <HomePage />
-    </>
-  )
+import HomePage from "./pages/HomePage";
+import Navbar from "./components/Navbar";
+export default function App() {
+    return(
+      <>
+        <Navbar />
+        <HomePage />
+      </>
+    )
 }
