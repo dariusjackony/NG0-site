@@ -8,7 +8,7 @@ export default function Hero() {
       setShow(true);
    }, [])
     return(
-        <section className="flex  text-left h-[60vh] relative bg-cover bg-center
+        <section className="flex  text-left h-[65vh] relative bg-cover bg-center
          lg:h-[100vh] md:h-[55vh]
         "
           style={{backgroundImage: `url(${BgPic})`}}
