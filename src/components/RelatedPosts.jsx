@@ -4,22 +4,26 @@ import { Button } from "./Button";
 export default function RelatedPosts(){
     const posts = [
         {
+          id: 1,
           image: Children,
           date: "25 April 2025",
           title: "Community Support",
           text: "We empower communities through sustainable programs"
         },
         {
+          id: 2,
           image: Children,
           title: "Community Support",
           text: "We empower communities through sustainable programs"
         },
         {
+          id: 3,
           image: Children,
           title: "Community Support",
           text: "We empower communities through sustainable programs"
         },
         {
+          id: 4,
           image: Children,
           date: "25 April 2025",
           title: "Community Support",
@@ -63,10 +67,11 @@ export default function RelatedPosts(){
               <button 
               key={i}
               onClick={ () => setActiveIndex(i)}
-               className={`w-7 h-7 rounded-full cursor-pointer mt-5 ${
+               className={`w-7 h-7 rounded-full cursor-pointer mt-5 text-white ${
                 activeIndex === i ? "bg-yellow-400" : "bg-gray-300"
                }`}
               >
+               {_.id}
               </button>
             ))}  
           </div>  

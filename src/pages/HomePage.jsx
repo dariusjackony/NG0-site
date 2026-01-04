@@ -4,6 +4,7 @@ import Introduction from "../components/Introduction";
 import FocusAreas from "../components/FocusAreas";
 import ImpactInAction from "../components/ImpactInAction";
 import RelatedPosts from "../components/RelatedPosts";
+// import CTA from "../components/CTA";
 export default function HomePage() {
     return(
         <>
@@ -13,6 +14,7 @@ export default function HomePage() {
          <FocusAreas />
          <ImpactInAction />
          <RelatedPosts />
+         {/* <CTA /> */}
         </>
     )
 }
