@@ -14,7 +14,7 @@ export default function Hero() {
           style={{backgroundImage: `url(${BgPic})`}}
         >
              <div className="absolute inset-0 bg-black/50"></div>
-              <div className="z-10 text-white px-5 pt-32 md:pt-50 lg:pl-15">
+              <div className="z-10 text-white px-5 pt-40 md:pt-50 lg:pl-15">
                  <p className={`mb-1 md:text-lg lg:text-base lg:text-xl transition-all duration-700 ${
                   show ? "translate-x-0 opacity-100" : "translate-x-20 opacity-0"
                  }`}>Together We Can</p>
