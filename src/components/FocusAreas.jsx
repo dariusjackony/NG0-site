@@ -23,10 +23,10 @@ export default function FocusAreas() {
         
     ]
     return(
-       <section className="pt-10 px-4 bg-gray-50 mt-4 lg:mt-20 md:mt-20 ">
+       <section className="pt-10 px-4 bg-gray-50 mt-4 lg:mt-20 md:mt-20 p-10">
           <div className="lg:col lg:text-center lg:justify-center md:text-center">
             <p className="text-2xl">Our Focus Areas</p>
-            <p className="mt-2 lg:text-xl">
+            <p className="mt-2 lg:text-xl text-gray-700">
                 Our Work is dedicated to creating <span className="font-semibold">meaningful change</span> in the 
                 communities we serve.
             </p>

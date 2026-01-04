@@ -2,6 +2,8 @@ import Hero from "../components/Hero";
 import ImpactSection from "../components/ImpactSection";
 import Introduction from "../components/Introduction";
 import FocusAreas from "../components/FocusAreas";
+import ImpactInAction from "../components/ImpactInAction";
+import RelatedPosts from "../components/RelatedPosts";
 export default function HomePage() {
     return(
         <>
@@ -9,6 +11,8 @@ export default function HomePage() {
          <Introduction />
          <ImpactSection />
          <FocusAreas />
+         <ImpactInAction />
+         <RelatedPosts />
         </>
     )
 }
