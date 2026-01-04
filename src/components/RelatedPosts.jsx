@@ -6,28 +6,30 @@ export default function RelatedPosts(){
         {
           id: 1,
           image: Children,
-          date: "25 April 2025",
-          title: "Community Support",
-          text: "We empower communities through sustainable programs"
+          date: "25 Apr 2025",
+          title: "Book Donation",
+          text: "Donated learning books to ghetto youths in Nakawa, supporting education access and encouraging a culture of reading."
         },
         {
           id: 2,
           image: Children,
-          title: "Community Support",
-          text: "We empower communities through sustainable programs"
+          date: "25 Nov 2025",
+          title: "Community Clean-up",
+          text: "Organized a clean-up campaign in Kyebando-kisalosalo to promote hygiene, environmental responsibility and community pride."
         },
         {
           id: 3,
           image: Children,
-          title: "Community Support",
-          text: "We empower communities through sustainable programs"
+          date: "1 Jan 2026",
+          title: "Youth Mentorship",
+          text: "Hosted a mentorship session for Kamwokya youths focused on life skills, discipline, and future career guidance."
         },
         {
           id: 4,
           image: Children,
-          date: "25 April 2025",
-          title: "Community Support",
-          text: "We empower communities through sustainable programs"
+          date: "6 Oct 2026",
+          title: "School Supplies",
+          text: "Provided essential school materials to children in underserved Karamoja communities to support consistent learning."
         },
         
     ]
@@ -49,12 +51,13 @@ export default function RelatedPosts(){
           >
             {posts.map((card, i) =>(
                 <div key={i} className="bg-gray-50 rounded-lg overflow-hidden
-                min-w-full lg:min-w-[100px] md:min-w-[300px]
+                min-w-full lg:min-w-1/3 md:min-w-1/3
                 ">
                   <img src={card.image} alt=""  className="w-full object-cover"/>
                   <div className="p-4">
                     <p className="text-xl flex">{card.title}</p>
-                    <p className="text-gray-700 mb-5">{card.text}</p>
+                    <p className="text-gray-800">.{card.date}</p>
+                    <p className="text-gray-700 mb-5 mt-3">{card.text}</p>
                     <Button>
                       Read More
                     </Button>
