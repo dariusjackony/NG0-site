@@ -1,25 +1,28 @@
 import { useState } from "react";
 import Children from "../assets/children.jpg";
+import Kawmwokya from "../assets/kamwokya-project.jpg";
+import Cleaning from "../assets/cleaning.jpg";
+import bookdonation from "../assets/book-donation.jpg";
 import { Button } from "./Button";
 export default function RelatedPosts(){
     const posts = [
         {
           id: 1,
-          image: Children,
+          image: bookdonation,
           date: "25 Apr 2025",
           title: "Book Donation",
           text: "Donated learning books to ghetto youths in Nakawa, supporting education access and encouraging a culture of reading."
         },
         {
           id: 2,
-          image: Children,
+          image: Cleaning,
           date: "25 Nov 2025",
           title: "Community Clean-up",
           text: "Organized a clean-up campaign in Kyebando-kisalosalo to promote hygiene, environmental responsibility and community pride."
         },
         {
           id: 3,
-          image: Children,
+          image: Kawmwokya,
           date: "1 Jan 2026",
           title: "Youth Mentorship",
           text: "Hosted a mentorship session for Kamwokya youths focused on life skills, discipline, and future career guidance."
