@@ -39,7 +39,7 @@ export default function Volunteer() {
             <img
               src={volunteer.image}
               alt={volunteer.name}
-              className="w-24 h-24 rounded-full object-cover"
+              className="w-24 h-24 rounded-full object-cover border-amber-400 border-1"
             />
             <p className="mt-4 font-medium">{volunteer.name}</p>
             <p className="text-sm text-gray-500">{volunteer.rank}</p>
